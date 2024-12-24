@@ -1,8 +1,6 @@
-﻿#include <opencv2/opencv.hpp>
-#include <iostream>
-
 #include <opencv2/opencv.hpp>
 #include <iostream>
+#include <stdexcept> 
 
 cv::Mat blendImages(const cv::Mat& image1, const cv::Mat& image2, const cv::Mat& alpha) {
     // Проверка на совпадение размеров
@@ -19,22 +17,28 @@ cv::Mat blendImages(const cv::Mat& image1, const cv::Mat& image2, const cv::Mat&
     cv::Mat blended(image1.size(), image1.type());
 
     // Смешивание изображений
-    for (int row = 0; row < image1.rows; ++row) {
-        for (int col = 0; col < image1.cols; ++col) {
-            cv::Vec3b pixel1 = image1.at<cv::Vec3b>(row, col);
-            cv::Vec3b pixel2 = image2.at<cv::Vec3b>(row, col);
-            uchar alphaValue = alpha.at<uchar>(row, col);
+    int rows = image1.rows;
+    int cols = image1.cols;
+
+    for (int row = 0; row < rows; ++row) {
+        for (int col = 0; col < cols; ++col) {
+            const unsigned char* pixel1Ptr = image1.ptr<const unsigned char>(row) + col * 3;
+            const unsigned char* pixel2Ptr = image2.ptr<const unsigned char>(row) + col * 3;
+            unsigned char alphaValue = alpha.at<unsigned char>(row, col);
 
             // Нормализуем альфа-канал
             float alphaNormalized = alphaValue / 255.0f;
 
             // Рассчитываем смешанные значения пикселей
-            cv::Vec3b blendedPixel;
-            blendedPixel[0] = static_cast<uchar>(pixel1[0] * (1.0 - alphaNormalized) + pixel2[0] * alphaNormalized);
-            blendedPixel[1] = static_cast<uchar>(pixel1[1] * (1.0 - alphaNormalized) + pixel2[1] * alphaNormalized);
-            blendedPixel[2] = static_cast<uchar>(pixel1[2] * (1.0 - alphaNormalized) + pixel2[2] * alphaNormalized);
+            unsigned char blendedPixel[3];
+            blendedPixel[0] = static_cast<unsigned char>(pixel1Ptr[0] * (1.0 - alphaNormalized) + pixel2Ptr[0] * alphaNormalized);
+            blendedPixel[1] = static_cast<unsigned char>(pixel1Ptr[1] * (1.0 - alphaNormalized) + pixel2Ptr[1] * alphaNormalized);
+            blendedPixel[2] = static_cast<unsigned char>(pixel1Ptr[2] * (1.0 - alphaNormalized) + pixel2Ptr[2] * alphaNormalized);
 
-            blended.at<cv::Vec3b>(row, col) = blendedPixel;
+            unsigned char* blendedPtr = blended.ptr<unsigned char>(row) + col * 3;
+            blendedPtr[0] = blendedPixel[0];
+            blendedPtr[1] = blendedPixel[1];
+            blendedPtr[2] = blendedPixel[2];
         }
     }
 
@@ -44,8 +48,8 @@ cv::Mat blendImages(const cv::Mat& image1, const cv::Mat& image2, const cv::Mat&
 
 int main() {
     // Загружаем изображения
-    cv::Mat image2 = cv::imread("abhazia.png"); // Путь к первому изображению
-    cv::Mat image1 = cv::imread("kitten.png"); // Путь ко второму изображению
+    cv::Mat image2 = cv::imread("kitten.png"); // Путь к первому изображению
+    cv::Mat image1 = cv::imread("abhazia.png"); // Путь ко второму изображению
     cv::Mat alpha = cv::imread("gradient.png", cv::IMREAD_GRAYSCALE); // Путь к альфа-каналу
 
     cv::Mat output;
