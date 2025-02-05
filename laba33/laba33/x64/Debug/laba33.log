@@ -1,0 +1,7 @@
+﻿  laba33.cpp
+C:\Users\ies_2\source\repos\laba33\laba33\laba33.cpp(141,11): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\ies_2\source\repos\laba33\laba33\laba33.cpp(190,17): warning C4101: type1: неиспользованная локальная переменная
+C:\Users\ies_2\source\repos\laba33\laba33\laba33.cpp(190,24): warning C4101: type2: неиспользованная локальная переменная
+C:\Users\ies_2\source\repos\laba33\laba33\laba33.cpp(211,11): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\ies_2\source\repos\laba33\laba33\laba33.cpp(228,11): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  laba33.vcxproj -> C:\Users\ies_2\source\repos\laba33\x64\Debug\laba33.exe
