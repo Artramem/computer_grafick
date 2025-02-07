@@ -1,0 +1,43 @@
+﻿  lab4.cpp
+C:\Users\ies_2\source\repos\lab4\lab4\lab4.cpp(96,62): warning C4244: =: преобразование "double" в "_Tp", возможна потеря данных
+          with
+          [
+              _Tp=int
+          ]
+C:\Users\ies_2\source\repos\lab4\lab4\lab4.cpp(97,62): warning C4244: =: преобразование "double" в "_Tp", возможна потеря данных
+          with
+          [
+              _Tp=int
+          ]
+C:\Users\ies_2\source\repos\lab4\lab4\lab4.cpp(102,22): warning C4244: return: преобразование "int" в "float", возможна потеря данных
+C:\Users\ies_2\source\repos\lab4\lab4\lab4.cpp(117,75): warning C4244: аргумент: преобразование "int" в "_Tp", возможна потеря данных
+          with
+          [
+              _Tp=float
+          ]
+C:\Users\ies_2\source\repos\lab4\lab4\lab4.cpp(117,52): warning C4244: аргумент: преобразование "int" в "_Tp", возможна потеря данных
+          with
+          [
+              _Tp=float
+          ]
+C:\Users\ies_2\source\repos\lab4\lab4\lab4.cpp(123,77): warning C4244: аргумент: преобразование "_Tp" в "int", возможна потеря данных
+          with
+          [
+              _Tp=float
+          ]
+C:\Users\ies_2\source\repos\lab4\lab4\lab4.cpp(123,60): warning C4244: аргумент: преобразование "_Tp" в "int", возможна потеря данных
+          with
+          [
+              _Tp=float
+          ]
+C:\Users\ies_2\source\repos\lab4\lab4\lab4.cpp(123,45): warning C4244: аргумент: преобразование "_Tp" в "int", возможна потеря данных
+          with
+          [
+              _Tp=float
+          ]
+C:\Users\ies_2\source\repos\lab4\lab4\lab4.cpp(123,32): warning C4244: аргумент: преобразование "_Tp" в "int", возможна потеря данных
+          with
+          [
+              _Tp=float
+          ]
+  lab4.vcxproj -> C:\Users\ies_2\source\repos\lab4\x64\Debug\lab4.exe

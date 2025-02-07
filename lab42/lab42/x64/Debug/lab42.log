@@ -1,0 +1,25 @@
+﻿  lab42.cpp
+C:\Users\ies_2\source\repos\lab42\lab42\lab42.cpp(104,11): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\ies_2\source\repos\lab42\lab42\lab42.cpp(135,11): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\ies_2\source\repos\lab42\lab42\lab42.cpp(175,11): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\ies_2\source\repos\lab42\lab42\lab42.cpp(202,55): warning C4244: аргумент: преобразование "_Tp" в "int", возможна потеря данных
+          with
+          [
+              _Tp=float
+          ]
+C:\Users\ies_2\source\repos\lab42\lab42\lab42.cpp(202,45): warning C4244: аргумент: преобразование "_Tp" в "int", возможна потеря данных
+          with
+          [
+              _Tp=float
+          ]
+C:\Users\ies_2\source\repos\lab42\lab42\lab42.cpp(202,35): warning C4244: аргумент: преобразование "_Tp" в "int", возможна потеря данных
+          with
+          [
+              _Tp=float
+          ]
+C:\Users\ies_2\source\repos\lab42\lab42\lab42.cpp(202,25): warning C4244: аргумент: преобразование "_Tp" в "int", возможна потеря данных
+          with
+          [
+              _Tp=float
+          ]
+  lab42.vcxproj -> C:\Users\ies_2\source\repos\lab42\x64\Debug\lab42.exe
