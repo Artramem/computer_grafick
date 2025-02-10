@@ -1,0 +1,98 @@
+﻿  lab4dop.cpp
+C:\Users\ies_2\source\repos\lab4dop\lab4dop\lab4dop.cpp(104,11): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\ies_2\source\repos\lab4dop\lab4dop\lab4dop.cpp(136,11): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\ies_2\source\repos\lab4dop\lab4dop\lab4dop.cpp(168,11): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\ies_2\source\repos\lab4dop\lab4dop\lab4dop.cpp(223,54): warning C4244: =: преобразование "double" в "_Tp", возможна потеря данных
+          with
+          [
+              _Tp=int
+          ]
+C:\Users\ies_2\source\repos\lab4dop\lab4dop\lab4dop.cpp(224,54): warning C4244: =: преобразование "double" в "_Tp", возможна потеря данных
+          with
+          [
+              _Tp=int
+          ]
+C:\Users\ies_2\source\repos\lab4dop\lab4dop\lab4dop.cpp(242,54): warning C4244: =: преобразование "double" в "_Tp", возможна потеря данных
+          with
+          [
+              _Tp=int
+          ]
+C:\Users\ies_2\source\repos\lab4dop\lab4dop\lab4dop.cpp(243,54): warning C4244: =: преобразование "double" в "_Tp", возможна потеря данных
+          with
+          [
+              _Tp=int
+          ]
+C:\Users\ies_2\source\repos\lab4dop\lab4dop\lab4dop.cpp(273,11): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\ies_2\source\repos\lab4dop\lab4dop\lab4dop.cpp(305,74): warning C4244: аргумент: преобразование "_Tp" в "_Tp", возможна потеря данных
+          with
+          [
+              _Tp=int
+          ]
+          and
+          [
+              _Tp=float
+          ]
+C:\Users\ies_2\source\repos\lab4dop\lab4dop\lab4dop.cpp(305,68): warning C4244: аргумент: преобразование "_Tp" в "_Tp", возможна потеря данных
+          with
+          [
+              _Tp=int
+          ]
+          and
+          [
+              _Tp=float
+          ]
+C:\Users\ies_2\source\repos\lab4dop\lab4dop\lab4dop.cpp(305,100): warning C4244: аргумент: преобразование "_Tp" в "_Tp", возможна потеря данных
+          with
+          [
+              _Tp=int
+          ]
+          and
+          [
+              _Tp=float
+          ]
+C:\Users\ies_2\source\repos\lab4dop\lab4dop\lab4dop.cpp(305,94): warning C4244: аргумент: преобразование "_Tp" в "_Tp", возможна потеря данных
+          with
+          [
+              _Tp=int
+          ]
+          and
+          [
+              _Tp=float
+          ]
+C:\Users\ies_2\source\repos\lab4dop\lab4dop\lab4dop.cpp(306,74): warning C4244: аргумент: преобразование "_Tp" в "_Tp", возможна потеря данных
+          with
+          [
+              _Tp=int
+          ]
+          and
+          [
+              _Tp=float
+          ]
+C:\Users\ies_2\source\repos\lab4dop\lab4dop\lab4dop.cpp(306,68): warning C4244: аргумент: преобразование "_Tp" в "_Tp", возможна потеря данных
+          with
+          [
+              _Tp=int
+          ]
+          and
+          [
+              _Tp=float
+          ]
+C:\Users\ies_2\source\repos\lab4dop\lab4dop\lab4dop.cpp(306,100): warning C4244: аргумент: преобразование "_Tp" в "_Tp", возможна потеря данных
+          with
+          [
+              _Tp=int
+          ]
+          and
+          [
+              _Tp=float
+          ]
+C:\Users\ies_2\source\repos\lab4dop\lab4dop\lab4dop.cpp(306,94): warning C4244: аргумент: преобразование "_Tp" в "_Tp", возможна потеря данных
+          with
+          [
+              _Tp=int
+          ]
+          and
+          [
+              _Tp=float
+          ]
+  lab4dop.vcxproj -> C:\Users\ies_2\source\repos\lab4dop\x64\Debug\lab4dop.exe
