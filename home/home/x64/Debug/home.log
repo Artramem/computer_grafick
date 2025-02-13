@@ -1,0 +1,56 @@
+﻿  home.cpp
+C:\Users\ies_2\source\repos\home\home\home.cpp(117,80): warning C4244: аргумент: преобразование "const _Tp" в "_Tp", возможна потеря данных
+          with
+          [
+              _Tp=double
+          ]
+          and
+          [
+              _Tp=uchar
+          ]
+C:\Users\ies_2\source\repos\home\home\home.cpp(117,66): warning C4244: аргумент: преобразование "const _Tp" в "_Tp", возможна потеря данных
+          with
+          [
+              _Tp=double
+          ]
+          and
+          [
+              _Tp=uchar
+          ]
+C:\Users\ies_2\source\repos\home\home\home.cpp(117,52): warning C4244: аргумент: преобразование "const _Tp" в "_Tp", возможна потеря данных
+          with
+          [
+              _Tp=double
+          ]
+          and
+          [
+              _Tp=uchar
+          ]
+C:\Users\ies_2\source\repos\home\home\home.cpp(124,81): warning C4244: аргумент: преобразование "const _Tp" в "_Tp", возможна потеря данных
+          with
+          [
+              _Tp=double
+          ]
+          and
+          [
+              _Tp=uchar
+          ]
+C:\Users\ies_2\source\repos\home\home\home.cpp(124,67): warning C4244: аргумент: преобразование "const _Tp" в "_Tp", возможна потеря данных
+          with
+          [
+              _Tp=double
+          ]
+          and
+          [
+              _Tp=uchar
+          ]
+C:\Users\ies_2\source\repos\home\home\home.cpp(124,53): warning C4244: аргумент: преобразование "const _Tp" в "_Tp", возможна потеря данных
+          with
+          [
+              _Tp=double
+          ]
+          and
+          [
+              _Tp=uchar
+          ]
+  home.vcxproj -> C:\Users\ies_2\source\repos\home\x64\Debug\home.exe
