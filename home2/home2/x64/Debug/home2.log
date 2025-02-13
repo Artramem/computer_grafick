@@ -1,0 +1,13 @@
+﻿  home2.cpp
+C:\Users\ies_2\source\repos\home2\home2\home2.cpp(34,11): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\ies_2\source\repos\home2\home2\home2.cpp(38,49): warning C4244: =: преобразование "double" в "_Tp", возможна потеря данных
+          with
+          [
+              _Tp=float
+          ]
+C:\Users\ies_2\source\repos\home2\home2\home2.cpp(39,49): warning C4244: =: преобразование "double" в "_Tp", возможна потеря данных
+          with
+          [
+              _Tp=float
+          ]
+  home2.vcxproj -> C:\Users\ies_2\source\repos\home2\x64\Debug\home2.exe
